@@ -70,25 +70,87 @@ Selain itu, user juga dapat memberi gambar resep menggunakan URL (link).
       ),
     ```
 
-3. **AppBar**
+**3. AppBar**  
+
+   Digunakan sebagai header di setiap halaman.
    
    🖿: home_page.dart, detail_resep.dart, form_resep.dart
 
-   Digunakan sebagai struktur dasar halaman.
-      
-    ```dart
+**4. ListView.builder**  
 
-    ```
-5. **ListView.builder**  
-6. **Card**  
-7. **ListTile**  
-8. **Text**  
-9. **TextField**  
-10. **ElevatedButton**  
-11. **FloatingActionButton**  
-12. **IconButton**  
-13. **Navigator & MaterialPageRoute**  
-14. **AlertDialog**  
-15. **Column, Padding, SizedBox**  
-16. **Container & ClipRRect**  
-17. **Image.network**
+   Digunakan untuk menampilkan daftar resep secara dinamis.
+   
+   🖿: home_page.dart
+
+**5. Card**  
+
+   Digunakan untuk membungkus setiap item resep agar terlihat rapi dan memiliki bayangan.
+   
+   🖿: home_page.dart
+
+**6. ListTile**
+
+   Digunakan untuk menampilkan nama resep dan tombol hapus dalam satu baris.
+   
+   🖿: home_page.dart
+
+**7. Text**
+
+   Digunakan untuk menampilkan teks seperti nama resep, bahan, dan langkah.
+
+   🖿: home_page.dart, detail_resep.dart, form_resep.dart
+
+**8. TextField**  
+
+   Digunakan untuk input data resep (nama, bahan, langkah, URL gambar).
+
+   🖿: form_resep.dart
+
+**9. ElevatedButton**  
+
+   Digunakan untuk tombol Simpan pada form.
+
+   🖿: form_resep.dart
+
+**10. FloatingActionButton**  
+
+   Digunakan untuk tombol tambah resep.
+
+   🖿: home_page.dart
+
+**11. IconButton**  
+
+   Digunakan untuk tombol edit dan hapus.
+
+   🖿: home_page.dart, detail_resep.dart
+
+**12. Navigator & MaterialPageRoute**  
+
+   Digunakan untuk berpindah halaman (Multi Page Navigation).
+
+   🖿: home_page.dart, detail_resep.dart, form_resep.dart
+
+**13. AlertDialog**  
+
+   Digunakan sebagai konfirmasi sebelum menghapus resep.
+
+   🖿: home_page.dart
+
+**14. Column, Padding, SizedBox**  
+
+   Digunakan untuk mengatur tata letak dan jarak antar elemen.
+
+   🖿: home_page.dart, detail_resep.dart, form_resep.dart
+
+**15. Container & ClipRRect**  
+
+   Digunakan untuk styling gambar (border dan rounded corner).
+
+   🖿: home_page.dart, detail_resep.dart
+
+**16. Image.network**
+
+   Digunakan untuk menampilkan gambar resep dari URL.
+
+   🖿: home_page.dart, detail_resep.dart
+
